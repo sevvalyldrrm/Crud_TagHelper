@@ -18,7 +18,7 @@ namespace Crud_TagHelper.Models
 
 		public string Aciklama { get; set; }
 
-		public bool Aktif { get; set; }
+		public bool Aktif { get; set; } = true;
 
 		public string AktifString => Aktif ? "Aktif" : "Pasif";
 
